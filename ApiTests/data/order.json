@@ -1,0 +1,17 @@
+{
+  "customerDetails": {
+    "fullName": "John Doe",
+    "email": "john.doe@example.com",
+    "phoneNumber": "+1234567890"
+  },
+  "shippingAddress": {
+    "addressLine": "123 Main St",
+    "city": "Anytown",
+    "state": "Anystate",
+    "postalCode": "12345",
+    "country": "Country"
+  },
+  "paymentMethod": "CashOnDelivery",
+  "shippingMethod": "Standard",
+  "customerNotes": "Please deliver between 9 AM and 5 PM."
+}

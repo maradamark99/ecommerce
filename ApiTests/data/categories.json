@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Books",
+    "attributeDefinitions": [
+      { "name": "Author", "type": "string", "isRequired": true },
+      { "name": "ISBN", "type": "string", "isRequired": true },
+      { "name": "Published Year", "type": "numeric", "isRequired": true }
+    ]
+  },
+  {
+    "name": "Electronics",
+    "attributeDefinitions": [
+      { "name": "Brand", "type": "string", "isRequired": true },
+      { "name": "Warranty", "type": "numeric", "isRequired": false }
+    ]
+  },
+  {
+    "name": "Clothing",
+    "attributeDefinitions": [
+      { "name": "Size", "type": "string", "isRequired": true },
+      { "name": "Color", "type": "string", "isRequired": true }
+    ]
+  }
+]

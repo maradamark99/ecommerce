@@ -1,0 +1,2 @@
+namespace Ecommerce.Domain.Payment;
+
