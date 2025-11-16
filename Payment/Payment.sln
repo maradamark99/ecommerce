@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment", "Payment\Payment.csproj", "{A57EB9CA-CFA0-46C9-87E1-221E72526227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Tests", "Payment.Tests\Payment.Tests.csproj", "{B511763D-3E6C-473B-A2B1-CF8C4A18DEA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A57EB9CA-CFA0-46C9-87E1-221E72526227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57EB9CA-CFA0-46C9-87E1-221E72526227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57EB9CA-CFA0-46C9-87E1-221E72526227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57EB9CA-CFA0-46C9-87E1-221E72526227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B511763D-3E6C-473B-A2B1-CF8C4A18DEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B511763D-3E6C-473B-A2B1-CF8C4A18DEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B511763D-3E6C-473B-A2B1-CF8C4A18DEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B511763D-3E6C-473B-A2B1-CF8C4A18DEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

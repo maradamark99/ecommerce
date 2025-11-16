@@ -1,0 +1,31 @@
+namespace EcommerceLib.Contract.Events;
+
+public enum Events
+{
+    CartCheckedOut,
+    EmailConfirmed,
+    InventoryOutOfStock,
+    InventoryInStock,
+    OrderCreationFailed,
+    OrderCreated,
+    FulfillOrder,
+    OrderExpired,
+    OrderCancelled,
+    OrderCompleted,
+    ShipmentCreated,
+    ShipmentDelivered,
+    ShipmentFailed,
+    PaymentSucceeded,
+    PaymentFailed,
+    PaymentPendingOnDelivery,
+    ProductCreated,
+    ProductDeleted,
+    ProductListed,
+    ProductDelisted,
+    ProductListingUpdated,
+    ProfileCreated,
+    ProfileUpdated,
+    ProfileDeleted,
+    WishlistItemInStock,
+    WishlistItemDiscounted,
+}

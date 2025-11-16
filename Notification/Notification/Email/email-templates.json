@@ -1,0 +1,37 @@
+[
+  {
+    "TemplateName": "FulfillOrder",
+    "Subject": "Your order has been placed!",
+    "Body": "Hello {{CustomerName}},\n\nYour order {{OrderId}} is being processed. \n\nThank you for shopping with us!"
+  },
+  {
+    "TemplateName": "OrderExpired",
+    "Subject": "Your order has expired!",
+    "Body": "Hello {{CustomerName}},\n\nYou have failed to complete the payment in time for order {{OrderId}}, and the window for that has expired."
+  },
+  {
+    "TemplateName": "OrderCancelled",
+    "Subject": "Your order has been cancelled!",
+    "Body": "Hello {{CustomerName}},\n\nYour order {{OrderId}} has been successfully cancelled!"
+  },
+  {
+    "TemplateName": "ShipmentCreated",
+    "Subject": "The shipment for your order has been created!",
+    "Body": "Hello {{CustomerName}},\n\nYour order {{OrderId}} has been prepared and the shipment has been created. You will receive tracking details soon.\n\nThank you for shopping with us!"
+  },
+  {
+    "TemplateName": "ShipmentDelivered",
+    "Subject": "Your order has been delivered!",
+    "Body": "Hello {{CustomerName}},\n\nGood news! Your order {{OrderId}} has been delivered. We hope you enjoy your purchase.\n\nThank you for shopping with us!"
+  },
+  {
+      "TemplateName": "WishlistItemDiscounted",
+      "Subject": "An item from your wishlist is discounted!",
+      "Body": "Hello {{CustomerName}},\n\nGood news! The product \"{{ProductName}}\" from your wishlist is now discounted.\nOriginal Price: {{ProductPrice}}\nDiscounted Price: {{DiscountedPrice}}\n\nDon't miss out on this offer!"
+  },
+  {
+      "TemplateName": "WishlistItemInStock",
+      "Subject": "An item from your wishlist is back in stock!",
+      "Body": "Hello {{CustomerName}},\n\nThe product \"{{ProductName}}\" from your wishlist is now back in stock!\nCurrent Price: {{ProductPrice}}\n\nHurry and grab it before it's gone!"
+  }
+]
